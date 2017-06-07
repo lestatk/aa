@@ -11,7 +11,7 @@ import { IResponse } from './interfaces/IResponse';
 export class AppComponent {
     public name1: string;
     public name2: string;
-    public name4: string;
+    public name3: string;
     
     constructor(http: Http) {
         http.get("http://localhost:1337/").subscribe((response) => {
